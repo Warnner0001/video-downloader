@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menu_home">
+
+    <fragment
+        android:id="@+id/menu_home"
+        android:name="com.videon.downloader.fragment.DownloaderFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_downloaders" />
+    <fragment
+        android:id="@+id/menu_about"
+        android:name="com.videon.downloader.fragment.AboutFragment"
+        android:label="@string/about_me"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/menu_rate"
+        android:name="com.videon.downloader.fragment.RateFragment"
+        android:label="@string/rate_us"
+        tools:layout="@layout/fragment_rate" />
+    <fragment
+        android:id="@+id/menu_more"
+        android:name="com.videon.downloader.fragment.MoreFragment"
+        android:label="@string/more_apps"
+        tools:layout="@layout/fragment_more" />
+</navigation>

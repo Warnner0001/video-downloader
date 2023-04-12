@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/menu_home" />
+    <item
+        android:id="@+id/menu_about"
+        android:icon="@drawable/user"
+        android:title="@string/about_me" />
+    <item
+        android:id="@+id/menu_rate"
+        android:icon="@drawable/star"
+        android:title="@string/rate_me" />
+    <item
+        android:id="@+id/menu_more"
+        android:icon="@drawable/more_menu"
+        android:title="@string/more" />
+</menu>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="10dp"
+    android:background="@drawable/applovin_consent_flow_gdpr_rounded_background">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/applovin_sdk_consentFlowGdprControlsViewHeight"
+        android:elevation="10dp">
+
+        <LinearLayout
+            android:id="@+id/main_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_textview"
+                style="@style/com.applovin.mediation.ConsentFlow.TitleTextView"
+                tools:text="Make INSERT APP NAME better and keep it free!" />
+
+            <TextView
+                android:id="@+id/message_textview"
+                style="@style/com.applovin.mediation.ConsentFlow.BodyTextView"
+                android:layout_marginStart="@dimen/applovin_sdk_consentFlowGdprHorizontalMargin"
+                android:layout_marginEnd="@dimen/applovin_sdk_consentFlowGdprHorizontalMargin"
+                android:layout_marginBottom="20dp"
+                android:text="@string/applovin_gdpr_learn_more_screen_message_1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:paddingStart="18dp"
+                android:paddingEnd="18dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/applovin_ic_baseline_add_circle_outline" />
+
+                <TextView
+                    style="@style/com.applovin.mediation.ConsentFlow.BodyTextView"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:text="@string/applovin_gdpr_learn_more_screen_bullet_1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:paddingStart="18dp"
+                android:paddingEnd="18dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/applovin_ic_baseline_add_circle_outline" />
+
+                <TextView
+                    style="@style/com.applovin.mediation.ConsentFlow.BodyTextView"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:text="@string/applovin_gdpr_learn_more_screen_bullet_2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:paddingStart="18dp"
+                android:paddingEnd="18dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/applovin_ic_baseline_add_circle_outline" />
+
+                <TextView
+                    style="@style/com.applovin.mediation.ConsentFlow.BodyTextView"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:text="@string/applovin_gdpr_learn_more_screen_bullet_3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:paddingStart="18dp"
+                android:paddingEnd="18dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/applovin_ic_baseline_add_circle_outline" />
+
+                <TextView
+                    style="@style/com.applovin.mediation.ConsentFlow.BodyTextView"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:text="@string/applovin_gdpr_learn_more_screen_bullet_4" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/com.applovin.mediation.ConsentFlow.BodyTextView"
+                android:layout_marginStart="@dimen/applovin_sdk_consentFlowGdprHorizontalMargin"
+                android:layout_marginEnd="@dimen/applovin_sdk_consentFlowGdprHorizontalMargin"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/applovin_gdpr_learn_more_screen_message_2" />
+        </LinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/controls_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/applovin_sdk_consentFlowGdprControlsViewHeight"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:id="@+id/back_button"
+            style="@style/com.applovin.mediation.ConsentFlow.PositiveButton"
+            android:layout_gravity="top"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/applovin_gdpr_back_button_text" />
+    </FrameLayout>
+</FrameLayout>

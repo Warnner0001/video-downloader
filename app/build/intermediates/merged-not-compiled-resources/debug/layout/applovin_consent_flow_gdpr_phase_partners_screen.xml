@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/applovin_consent_flow_gdpr_rounded_background"
+    android:elevation="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/partners_content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/applovin_sdk_consentFlowGdprPartnersControlViewHeight"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_textview"
+            style="@style/com.applovin.mediation.ConsentFlow.TitleTextView"
+            tools:text="@string/applovin_gdpr_advertising_partners_screen_title" />
+
+        <TextView
+            android:id="@+id/message_textview"
+            style="@style/com.applovin.mediation.ConsentFlow.BodyTextView"
+            android:layout_marginStart="@dimen/applovin_sdk_consentFlowGdprHorizontalMargin"
+            android:layout_marginEnd="@dimen/applovin_sdk_consentFlowGdprHorizontalMargin"
+            android:layout_marginBottom="20dp"
+            android:text="@string/applovin_gdpr_advertising_partners_screen_message" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:id="@+id/partner_links_textview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/applovin_sdk_consentFlowGdprHorizontalMargin"
+                android:layout_marginEnd="@dimen/applovin_sdk_consentFlowGdprHorizontalMargin"
+                android:autoLink="all"
+                android:lineSpacingExtra="4dp"
+                android:textColor="@color/applovin_sdk_consentFlowGdprTextColor"
+                android:textColorLink="@color/applovin_sdk_consentFlowGdprTextColor"
+                android:textSize="14sp"
+                tools:text="http://www.facebook.com/privacy\nhttp://www.admob.com\nhttp://www.chartboos.com\nhttp://www.fyber.com\nhttp://www.unityads.com\nhttp://www.amazonads.com\nhttp://www.adjust.com\nhttp://www.vungle.com\nhttp://www.sometest.com\nhttp://www.mytarget.com\nhttp://www.yandex.com\nhttp://www.test.com" />
+        </ScrollView>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/controls_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/applovin_sdk_consentFlowGdprPartnersControlViewHeight"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:id="@+id/back_button"
+            style="@style/com.applovin.mediation.ConsentFlow.PositiveButton"
+            android:layout_gravity="top"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/applovin_gdpr_back_button_text" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,111 @@
+{
+  "project_info": {
+    "project_number": "310505554219",
+    "firebase_url": "https://socialgroups777-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "socialgroups777",
+    "storage_bucket": "socialgroups777.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310505554219:android:4c874928c5096f6214c56e",
+        "android_client_info": {
+          "package_name": "com.socialgroups.stickers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310505554219-0u52nk5k6gjirq029fp6jlea4ask7l5v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.socialgroups.stickers",
+            "certificate_hash": "b4066ae664dc8a534e601f3a33f6b4708fd413b6"
+          }
+        },
+        {
+          "client_id": "310505554219-8uev0ipi6s476f3unhn73r9bsgrm7rci.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.socialgroups.stickers",
+            "certificate_hash": "8ba2c4fb534bdbe2f0be0234241fa9f78dfb8690"
+          }
+        },
+        {
+          "client_id": "310505554219-jd063rdre8to7cmeflpr33jjgfk86j47.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.socialgroups.stickers",
+            "certificate_hash": "541444c23a75e031366699cca6409e57b7eb37c3"
+          }
+        },
+        {
+          "client_id": "310505554219-74q4ak9hvojoi1pdk05na5uknmq5j469.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl4VjfvonF0qTaNlacLhRklVZw3WePBc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310505554219-74q4ak9hvojoi1pdk05na5uknmq5j469.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-7246225768757843~1642896066"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310505554219:android:ec0ff61188473e8a14c56e",
+        "android_client_info": {
+          "package_name": "com.videon.downloader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310505554219-3aqcekgsqsp6d71sjlos8pjf54qr6cnt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.videon.downloader",
+            "certificate_hash": "c2fac819271a52bbded13e1e277ba3a053ace1e6"
+          }
+        },
+        {
+          "client_id": "310505554219-liu0dufnbluvqued6q2am58nprbnlcor.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.videon.downloader",
+            "certificate_hash": "d7521f33db939cee0d54c219788f1c16f16785fd"
+          }
+        },
+        {
+          "client_id": "310505554219-74q4ak9hvojoi1pdk05na5uknmq5j469.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl4VjfvonF0qTaNlacLhRklVZw3WePBc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310505554219-74q4ak9hvojoi1pdk05na5uknmq5j469.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-7246225768757843~8381849487"
+    }
+  ],
+  "configuration_version": "1"
+}

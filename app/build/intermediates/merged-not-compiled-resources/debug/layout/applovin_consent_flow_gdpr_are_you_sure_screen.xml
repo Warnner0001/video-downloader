@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/applovin_consent_flow_gdpr_rounded_background"
+    android:elevation="10dp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/applovin_sdk_consentFlowGdprControlsViewHeight">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_textview"
+                style="@style/com.applovin.mediation.ConsentFlow.TitleTextView"
+                android:text="@string/applovin_gdpr_are_you_sure_screen_title" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/applovin_ic_warning_outline" />
+
+            <TextView
+                android:id="@+id/message_textview"
+                style="@style/com.applovin.mediation.ConsentFlow.BodyTextView"
+                android:layout_marginStart="@dimen/applovin_sdk_consentFlowGdprHorizontalMargin"
+                android:layout_marginEnd="@dimen/applovin_sdk_consentFlowGdprHorizontalMargin"
+                android:layout_marginBottom="20dp"
+                android:text="@string/applovin_gdpr_are_you_sure_screen_message" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/controls_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/applovin_sdk_consentFlowGdprControlsViewHeight"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/back_button"
+            style="@style/com.applovin.mediation.ConsentFlow.PositiveButton"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/applovin_gdpr_back_button_text" />
+
+        <Button
+            android:id="@+id/understand_and_confirm_button"
+            style="@style/com.applovin.mediation.ConsentFlow.NeutralButton"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/applovin_gdpr_understand_and_continue_button_text" />
+    </LinearLayout>
+</FrameLayout>

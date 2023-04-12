@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.videon.downloader.app-mergeDebugResources-68:/values-sw480dp-v13/values-sw480dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\81c6e1cdd6e1ebb1ce0aaf38fb35690a\\transformed\\jetified-Material-Smart-Rating-3.0.0\\res\\values-sw480dp-v13\\values-sw480dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,94,133,173,213,251,288,328,367,407,447,486,525,565,605",
+                        "endColumns": "38,38,39,39,37,36,39,38,39,39,38,38,39,39,38",
+                        "endOffsets": "89,128,168,208,246,283,323,362,402,442,481,520,560,600,639"
+                    }
+                }
+            ]
+        }
+    ]
+}

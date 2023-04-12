@@ -1,0 +1,119 @@
+apply plugin: 'kotlin-android'
+apply plugin: 'com.android.application'
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+android {
+    compileSdkVersion 33
+    defaultConfig {
+        applicationId "com.videon.downloader"
+        minSdk 23
+        targetSdkVersion 33
+        versionCode 14
+        versionName "8.0.2"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField "String", "BASE_HOST", "\"Krishna Apps\""
+        buildConfigField "String", "LICENSE_FROM", "\"https://codeintra.com/\""
+        buildConfigField "String", "TAKEN_BY", "\"krishna-apps\""
+        buildConfigField "String", "API_FILE", "\"api_down.php\""
+        buildConfigField "String", "LICENSE_KEY", "\"ZWP6-9H86-DRA5\""
+        buildConfigField "String", "BUYER_NAME", "\"Kinjal\""
+    }
+    buildTypes.each {
+        it.buildConfigField 'String', 'Sweet', coder
+    }
+    signingConfigs {
+        release {
+            storeFile file("videonly.jks")
+            storePassword "videonly"
+            keyAlias "videonly"
+            keyPassword "videonly"
+        }
+    }
+    buildTypes {
+        debug {
+            minifyEnabled true
+            shrinkResources true
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled true
+            shrinkResources true
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    buildFeatures {
+        viewBinding true
+    }
+    namespace 'com.videon.downloader'
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+        disable 'MissingTranslation', 'TypographyFractions', 'TypographyQuotes'
+    }
+    buildToolsVersion '33.0.0'
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.3'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'com.airbnb.android:lottie:5.2.0'
+    implementation 'androidx.recyclerview:recyclerview:1.3.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.github.bumptech.glide:glide:4.14.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.14.2'
+    implementation 'com.onesignal:OneSignal:[4.0.0, 4.99.99]'
+    implementation 'com.google.code.gson:gson:2.9.0'
+    implementation 'com.karumi:dexter:6.2.3'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    //noinspection GradleDependency
+    implementation 'androidx.annotation:annotation:1.5.0'
+    implementation files('libs/commons-io-2.4.jar')
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.2'
+    implementation 'com.google.firebase:firebase-core:21.1.1'
+    implementation platform('com.google.firebase:firebase-bom:26.5.0')
+    implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'io.github.inflationx:calligraphy3:3.1.1'
+    implementation 'io.github.inflationx:viewpump:2.0.3'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21"
+    implementation 'com.github.vimalcvs:Material-Smart-Rating:3.0.0'
+    implementation 'com.applovin:applovin-sdk:11.8.2'
+    implementation 'com.applovin.mediation:google-adapter:21.5.0.0'
+    implementation 'com.applovin.mediation:chartboost-adapter:9.2.0.0'
+    implementation 'com.google.android.gms:play-services-base:18.2.0'
+    implementation 'com.applovin.mediation:fyber-adapter:8.2.2.0'
+    implementation 'com.applovin.mediation:google-ad-manager-adapter:21.5.0.0'
+    implementation 'com.applovin.mediation:inmobi-adapter:10.1.2.1'
+    implementation 'com.applovin.mediation:facebook-adapter:6.13.7.0'
+    implementation 'com.applovin.mediation:unityads-adapter:4.5.0.2'
+    implementation 'androidx.browser:browser:1.5.0'
+    implementation 'com.github.ibrahimsn98:SmoothBottomBar:1.7.9'
+    implementation 'com.github.franmontiel:PersistentCookieJar:v1.0.1'
+}
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+apply plugin: 'applovin-quality-service'
+applovin {
+    apiKey "Q-XgDKOFi2xdbthwr78Un_5iB3tzTodtaQgSPytCOOBux6-OH1ynDrN3avXf-2Pv-Wwe1iNGOERnK2ICJcQ62q"
+}
+googleServices { disableVersionCheck = true }

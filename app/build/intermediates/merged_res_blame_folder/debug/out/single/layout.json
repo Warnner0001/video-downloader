@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/wa_list.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/wa_list.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/activity_main.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/fragment_quote.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/fragment_quote.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/fragment_gallery.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/fragment_whatsapp.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/fragment_whatsapp.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/down_lists.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/down_lists.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/down_list.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/down_list.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/download_list.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/download_list.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/preview_item_list.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/preview_item_list.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/progress_dialog.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/progress_dialog.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/fragment_rate.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/fragment_rate.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/banner_ad.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/banner_ad.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/fragment_downloads.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/fragment_downloads.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/fragment_about.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/fragment_about.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/fragment_download.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/fragment_download.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/fragment_wa.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/fragment_wa.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/row_toolbar.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/row_toolbar.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/success_dialog.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/success_dialog.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/apps_list.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/apps_list.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/activity_opener.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/activity_opener.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/nativead_layout.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/nativead_layout.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/allow_permission.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/allow_permission.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/activity_preview.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/activity_preview.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/activity_gallery.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/activity_gallery.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/instruction_dialog.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/instruction_dialog.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/fragment_insta.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/fragment_insta.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/fragment_more.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/fragment_more.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/fragment_downloaders.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/fragment_downloaders.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/no_data_found.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/no_data_found.xml"
+    },
+    {
+        "merged": "com.videon.downloader.app-mergeDebugResources-69:/layout/activity_preview_video.xml",
+        "source": "com.videon.downloader.app-main-72:/layout/activity_preview_video.xml"
+    }
+]
